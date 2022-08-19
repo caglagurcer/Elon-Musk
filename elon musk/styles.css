@@ -1,0 +1,67 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  color:linen;
+}
+body {
+background-color: rgb(20, 30, 40);
+text-align:center;
+font-family: 'Raleway', sans-serif;
+margin-left:100px;
+margin-right:100px;
+}
+.title{
+  color:orangered;
+  font-style:italic;
+  font-size:4em;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+}
+#image {
+  max-width:100%;
+  height:auto;
+  margin:0 auto;
+}
+
+img {
+  display:block;
+}
+.whereishe, .money, .worth{
+  padding-top:3em;
+}
+#img-caption{
+    padding-top:1em;
+    font-style:italic;
+}
+#bbc{
+  padding-top:7em;
+  padding-bottom:1.5em;
+}
+
+p{
+  font-size:1.5em;
+  letter-spacing: 0.6px;
+}
+div::first-letter {
+  font-size:2rem;
+  color:orangered;
+}
+hr{
+  width:60%;
+  margin: 1em auto;
+  border:1px solid rgba(120, 120, 120, 0.6);
+}
+#image{
+    width:40%;
+}
+@media only screen and (max-width:1100px){
+    #bbc{
+    padding-bottom:1em;
+  }
+}
